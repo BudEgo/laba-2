@@ -11,7 +11,7 @@ int main()
 		if ((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] < 'z'))
 			k++;
 		else {
-			for (int j = 0; j < 12; j++) {
+			for (int j = 0; j < 6; j++) {
 				if ((str[i - k] == glasn[j]) || (str[i - k] == glasn[j] + 32)) {
 					c = i;
 					for (i = i - k; i <= c - 1; i++) {
